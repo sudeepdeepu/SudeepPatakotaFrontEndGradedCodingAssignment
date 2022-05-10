@@ -1,0 +1,135 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.titleProject {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+.projectFotter {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    background-color: #7F7F7F;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li:hover {
+    background-color: black;
+}
+
+.drop-down {
+    position: absolute;
+    background-color: #F5F5F5;
+    max-width: 150px;
+    top: 42px;
+    display: none;
+    padding: 0;
+}
+
+.drop-down li {
+    display: block;
+}
+
+.drop-down li a {
+    color: #7FA6CA;
+    font-size: 16px;
+}
+
+.drop-down li:hover {
+    background-color: gainsboro;
+    font-size: 16px;
+}
+
+.menu li:nth-child(2):hover .drop-down,
+.menu li:nth-child(3):hover .drop-down {
+    display: block;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    height: 50%;
+    width: 100%;
+}
+
+.image1 {
+    animation: fadein 6s;
+}
+
+.image2 {
+    animation: fadein 6s;
+}
+
+.image3 {
+    animation: fadein 6s;
+}
+
+.image4 {
+    animation: fadein 6s;
+}
+
+.image5 {
+    animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: aliceblue;
+}
+
+#clickButton {
+    width: 100%;
+    color: darkorange;
+}

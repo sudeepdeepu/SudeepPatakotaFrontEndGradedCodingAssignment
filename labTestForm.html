@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="labTestForm.css">
+    <title>Pharmacy</title>
+</head>
+
+<body>
+    <div class="ui-g-6">
+        <p>1.Your Contact Details</p>
+        <label for="fname">Full name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="pname">Patient Id if exists:</label>
+        <input type="text" id="pname" name="pname"><br><br>
+        <label for="cnum">Contact Number:</label>
+        <input type="number" id="cnum" name="cnum"><br><br>
+        <label for="email">Email Id:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <p>2.Address</p>
+        <label for="hnum">House Number:</label>
+        <input type="text" id="hnum" name="hnum"><br><br>
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street"><br><br>
+        <label for="area">Area:</label>
+        <input type="number" id="area" name="area"><br><br>
+        <label for="district">District:</label>
+        <input type="text" id="district" name="district"><br><br>
+        <p>3.Choose the Test Type</p>
+        <input type="checkbox" id="test1" name="test1" value="CBC">
+        <label for="test1">CBC</label><br>
+        <input type="checkbox" id="test2" name="test2" value="Complete Urine">
+        <label for="test2">Complete Urine</label><br>
+        <input type="checkbox" id="test3" name="test3" value="Lipid Profile">
+        <label for="test3">Lipid Profile</label><br>
+        <input type="checkbox" id="test4" name="test4" value="Thyroid Stimulating Hormone">
+        <label for="test4">Thyroid Stimulating Hormone(TSH)</label><br>
+        <input type="checkbox" id="test5" name="test5" value="Glucose Test">
+        <label for="test5">Glucose Test</label><br>
+        <p>4.Do you want a hard copy of the report also?</p>
+        <input type="checkbox" id="yCopy" name="yCopy" value="Yes">
+        <label for="yCopy">Yes</label><br>
+        <input type="checkbox" id="nCopy" name="nCopy" value="No">
+        <label for="nCopy">No</label><br>
+        <p>5.Select Your Comfortable Date and Time</p>
+        <label for="comfortabletime">Comfortable (date and time):</label>
+        <input type="datetime-local" id="comfortabletime" name="comfortabletime"><br>
+    </div>
+    <br>
+    <div class="ui-g-6">
+        <img class="image1" src="/C:/Users/Home/Desktop/Images/Lab-test/lab-test.jpg">
+    </div>
+    <div>
+        <button id="resetButton" type="button">Reset</button>
+        <button id="submitButton" type="button">Submit</button>
+    </div>
+</body>
+
+</html>

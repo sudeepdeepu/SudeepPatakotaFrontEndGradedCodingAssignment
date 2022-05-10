@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="pharmacyShop.css">
+    <title>Pharmacy</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titleProject">Pharmacy</h1>
+    </header>
+    <nav class="navBar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Medicines</a>
+                <ul class="drop-down">
+                    <li><a href="#">Fever</a></li>
+                    <li><a href="#">Muscle Pain</a></li>
+                    <li><a href="#">Cold and Cough</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Health Care</a>
+                <ul class="drop-down">
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Home Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Pet Care</a></li>
+                </ul>
+            </li>
+            <li><a href="/C:/Users/Home/Downloads/proj3\FrontEndGradedAssignment//labTestForm.html">Lab Test</a></li>
+        </ul>
+    </nav>
+    <div>
+        <section id="bar-graph">
+            <article>
+                <div>
+                    <img class="image1" src="/C:/Users/Home/Desktop/Images/Animation/ani1.jpg">
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img class="image2" src="/C:/Users/Home/Desktop/Images/Animation/ani2.png">
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img class="image3" src="/C:/Users/Home/Desktop/Images/Animation/ani3.jpg">
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img class="image4" src="/C:/Users/Home/Desktop/Images/Animation/ani4.jpg">
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img class="image5" src="/C:/Users/Home/Desktop/Images/Animation/ani5.jpg">
+                </div>
+            </article>
+        </section>
+    </div>
+    <div class="parent">
+        <div>
+            <h1 class="cc">Covid Care</h1>
+            <div class="child">
+                <p>Covid test kit</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/c1.jpg">
+                <p style="color: dodgerblue;">Rs. 40</p>
+                <p style="color: dodgerblue;">Offer: Rs. 30/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+            <div class="child">
+                <p>Covid Essentials</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/c2.jpg">
+                <p style="color: dodgerblue;">Rs. 240</p>
+                <p style="color: dodgerblue;">Offer: Rs. 170/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+            <div class="child">
+                <p>Sanitizer Bottle</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/c3.jpg">
+                <p style="color: dodgerblue;">Rs. 99</p>
+                <p style="color: dodgerblue;">Offer: Rs. 87/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+            <div class="child">
+                <p>Mask</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/c4.jpg">
+                <p style="color: dodgerblue;">Rs. 45</p>
+                <p style="color: dodgerblue;">Offer: Rs. 30/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+        </div>
+        <div>
+            <h1>Diabetes Care</h1>
+            <div class="child">
+                <p>Tablets</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/d1.jpg">
+                <p style="color: dodgerblue;">Rs. 40</p>
+                <p style="color: dodgerblue;">Offer: Rs. 30/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+            <div class="child">
+                <p>Jam</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/d2.jpg">
+                <p style="color: dodgerblue;">Rs. 240</p>
+                <p style="color: dodgerblue;">Offer: Rs. 170/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+            <div class="child">
+                <p>Paste</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/d3.jpg">
+                <p style="color: dodgerblue;">Rs. 99</p>
+                <p style="color: dodgerblue;">Offer: Rs. 87/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+            <div id="bisvuits" class="child">
+                <p>Biscuits</p>
+                <img class="cc1" src="/C:/Users/Home/Desktop/Images/Products/d4.png">
+                <p style="color: dodgerblue;">Rs. 45</p>
+                <p style="color: dodgerblue;">Offer: Rs. 30/-</p>
+                <button id="clickButton" type="button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <p class="projectFotter">@copyright. Only for demonstration purposes</p>
+    <script>
+        $('#clickButton').click(function () {
+            $('#bisvuits').css({
+                'background-color': '#FAE6EA',
+                'border': '1px solid #00FF4C'
+            });
+        });
+    </script>
+</body>
+
+</html>
